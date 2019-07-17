@@ -1,4 +1,4 @@
-# psc-blog
+# lion-ui
 
 ## Project setup
 ```
@@ -7,7 +7,7 @@ yarn install
 
 ### Compiles and hot-reloads for development
 ```
-yarn run server
+yarn run serve
 ```
 
 ### Compiles and minifies for production
