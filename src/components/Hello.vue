@@ -1,5 +1,5 @@
 <template>
-  <div>hello word</div>
+  <el-button>hello word</el-button>
 </template>
 
 <script lang="ts">

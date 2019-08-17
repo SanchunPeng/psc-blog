@@ -1,0 +1,29 @@
+.hljs-keyword,
+.hljs-tag {
+    color: #f92672;
+}
+
+.hljs-attr {
+    color:#a6e604;
+}
+
+.hljs-string {
+    color: #ddd404;
+}
+
+.hljs-function {
+    .hljs-keyword {
+        color: #04e685;
+    }
+    .hljs-title {
+        color: #09a9d6fc
+    }
+
+    .hljs-params {
+        color: #fbb804fc;
+    }
+}
+
+.hljs-comment {
+    color: #abb2bf;
+}
