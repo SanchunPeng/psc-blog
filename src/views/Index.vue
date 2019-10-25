@@ -32,10 +32,10 @@ export default class Index extends Vue {
     padding: 0;
   }
   .el-main {
-    padding: 20px 80px;
+    padding: 20px 120px;
     .content, .label {
       float: left;
-      height: 100%;
+      // height: 100%;
     }
     .label {
       width: 200px;

@@ -27,3 +27,15 @@
 .hljs-comment {
     color: #abb2bf;
 }
+
+.language-css {
+    .hljs-selector-class, .hljs-selector-id {
+        color: #a6e604;
+    }
+    .hljs-attribute, .hljs-selector-tag {
+        color: #09a9d6fc;
+    }
+    .hljs-number {
+        color: #ab09e2;
+    }
+}

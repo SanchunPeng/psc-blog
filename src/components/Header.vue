@@ -1,7 +1,7 @@
 <template>
   <div class="header">
     <el-menu :default-active="activeIndex" :router="true" class="el-menu-demo" mode="horizontal">
-        <el-menu-item index="hompage">首页</el-menu-item>
+        <!-- <el-menu-item index="hompage">首页</el-menu-item> -->
         <el-menu-item index="article">文章</el-menu-item>
         <el-menu-item index="project">项目</el-menu-item>
         <el-menu-item index="progress">历程</el-menu-item>
@@ -18,7 +18,7 @@ import { Component, Prop, Vue } from 'vue-property-decorator';
 
 export default class Header extends Vue {
 
-  activeIndex : String = 'hompage'
+  activeIndex : String = 'article'
 
   mounted() {
     const name = this['$route'].name
@@ -28,5 +28,7 @@ export default class Header extends Vue {
 </script>
 
 <style lang="scss">
-
+.header .el-menu-demo {
+  padding-left: 120px;
+}
 </style>

@@ -24,6 +24,7 @@ html, body{
   height: 100%;
   margin: 0;
   min-height: 600px;
+  min-width: 1180px;
 }
 
 #app {

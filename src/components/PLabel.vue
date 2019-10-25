@@ -20,15 +20,19 @@ export default class PLabel extends Vue {
     labelNames : Array<LabelItem> = [
       { name: 'Vue', color: '#2dca1f' },
       { name: 'React', color: '#4478bf' },
-      { name: 'Three、WebGL', color: '#fbb606' },
-      { name: 'WebGL', color: '#fbb606' },
+      { name: 'Three', color: '#fbb606' },
+      { name: 'WebGL', color: '#BBAB8D' },
       { name: 'ElementUI', color: '#0683fb' },
-      { name: 'Typescript', color: '#b3660e' },
-      { name: 'Javascript', color: '#158420' },
       { name: 'css', color: '#635d61' },
-      { name: 'scss', color: '#635d61' },
-      { name: 'webpack', color: '#BBAB8D' },
+      { name: 'Typescript', color: '#b3660e' },
+      { name: 'scss', color: '#2dca1f' },
+      { name: 'Javascript', color: '#158420' },
       { name: '算法', color: '#ffb800' },
+      { name: 'webpack', color: '#BBAB8D' },
+      { name: '性能', color: '#4478bf' },
+      { name: '机器学习', color: '#2dca1f' },
+      { name: 'Flutter', color: '#fbb606' },
+      { name: '其他', color: '#4478bf' },
     ]
 }
 </script>

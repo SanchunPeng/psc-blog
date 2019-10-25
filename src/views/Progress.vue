@@ -45,7 +45,7 @@ export default class Progress extends Vue {
   }, {
     name: '常州建行培训中心实习',
     time: '2017年4月-2017年6月',
-    detail: '建行的自助餐诱人了，体重忍不住又涨了。',
+    detail: '主要是做一套培训系统，但是建行的自助餐诱人了，体重忍不住又涨了。',
   }, {
     name: '毕业',
     time: '2017年7月-2018年3月',
@@ -53,7 +53,7 @@ export default class Progress extends Vue {
   }, {
     name: '58同城北京总部工作',
     time: '2018年3月-至今',
-    detail: '工作环境挺好的，同事和小师傅也很照顾我。',
+    detail: '工作环境挺好的，同事和小师傅也很照顾我。在这里学习成长了很多。',
   }]
 }
 </script>

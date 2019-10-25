@@ -9,6 +9,7 @@
                 <div class="item-label">标签：{{item.label}}</div>
                 <h3>{{item.title}}</h3>
                 <div class="item-desc">{{item.desc}}</div>
+                <img class="item-img" :src="item.img"/>
             </div>
         </div>
         <div class="label">
@@ -47,7 +48,9 @@ export default class Article extends Vue {
 
     .article-item {
       border-bottom: 1px solid #f3f6f3;
-      padding: 15px 30px;
+      padding: 30px;
+      position: relative;
+      padding-right: 140px;
       cursor: pointer;
       .item-label {
         color: #b2bac2;
@@ -55,6 +58,14 @@ export default class Article extends Vue {
       }
       .item-desc {
         margin-top: 10px;
+      }
+      .item-img {
+        width: 150px;
+        height: 100px;
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
       }
     }
 }

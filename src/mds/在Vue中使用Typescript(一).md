@@ -13,7 +13,7 @@ npm install tslint tslint-loader tslint-config-standard -D
 ```
 
 
-##2. 配置webpack
+## 2. 配置webpack
 
 修改 ./build/webpack.base.conf.js 文件：
 
