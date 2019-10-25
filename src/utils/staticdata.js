@@ -3,7 +3,7 @@ export default [{
   title: 'THREE中世界坐标和屏幕坐标之间的转换',
   label: 'THREE',
   desc: '屏幕坐标转化为世界坐标、世界坐标转化为屏幕坐标...',
-  path: '../assets/three.jpeg'
+  path: 'https://sanchunpeng.github.io/pscblog/src/assets/three.jpeg'
 }, {
   id: '0017',
   title: '自定义着色器',
