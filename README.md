@@ -1,4 +1,4 @@
-# blog
+# pscbolg
 
 ## Project setup
 ```
