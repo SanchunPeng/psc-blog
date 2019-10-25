@@ -1,4 +1,4 @@
-# lion-ui
+# blog
 
 ## Project setup
 ```

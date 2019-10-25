@@ -9,7 +9,7 @@
                 <div class="item-label">标签：{{item.label}}</div>
                 <h3>{{item.title}}</h3>
                 <div class="item-desc">{{item.desc}}</div>
-                <img class="item-img" :src="item.img"/>
+                <img class="item-img" :src="item.path"/>
             </div>
         </div>
         <div class="label">
