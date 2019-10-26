@@ -62,6 +62,7 @@ export default class Article extends Vue {
       .item-img {
         width: 150px;
         height: 100px;
+        border-radius: 4px;
         position: absolute;
         right: 20px;
         top: 50%;
