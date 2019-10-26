@@ -32,6 +32,7 @@ export default class PLabel extends Vue {
       { name: '性能', color: '#4478bf' },
       { name: '机器学习', color: '#2dca1f' },
       { name: 'Flutter', color: '#fbb606' },
+      { name: 'touch', color: '#2dca1f' },
       { name: '其他', color: '#4478bf' },
     ]
 }
