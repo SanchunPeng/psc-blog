@@ -35,7 +35,7 @@ import PLabel from '../components/PLabel.vue';
 export default class Progress extends Vue {
   // computed
   progressData: Array<ProgressItem> = [{
-    name: '浙江大华技术股份有限公司实习',
+    name: '公司实习',
     time: '2016年4月-2016年9月',
     detail: '从学校去公司的路上是一直睡过去的~',
   }, {
@@ -51,7 +51,7 @@ export default class Progress extends Vue {
     time: '2017年7月-2018年3月',
     detail: '那年我毕业啦~',
   }, {
-    name: '58同城北京总部工作',
+    name: '第一份工作',
     time: '2018年3月-至今',
     detail: '工作环境挺好的，同事和小师傅也很照顾我。在这里学习成长了很多。',
   }]
@@ -61,20 +61,6 @@ export default class Progress extends Vue {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss">
 .progress {
-  // .content, .label {
-  //  float: left;
-  //  height: 100%;
-  // }
-  // .label {
-  //   width: 200px;
-  //   margin-left: 30px;
-  // }
-  // .content {
-  //   padding: 20px;
-  //   width: calc(100% - 230px);
-  //   background-color: #ffffff;
-  //   border-radius: 4px;
-  // }
   .detail, .time {
     margin-top: 15px;
   }

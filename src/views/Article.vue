@@ -2,14 +2,16 @@
     <div class="article">
         <div class="content">
             <div v-for="(item, index) in typescriptArticles"
-                :key="index"
+                :key="index">
+              <div v-if="item.label.indexOf(getCurrentLabel) > -1" 
                 class="article-item"
                 @click="handleGotoDetail(item)"
                 >
-                <div class="item-label">标签：{{item.label}}</div>
-                <h3>{{item.title}}</h3>
-                <div class="item-desc">{{item.desc}}</div>
-                <img class="item-img" :src="item.path"/>
+                  <div class="item-label">标签：{{item.label}}</div>
+                  <h3>{{item.title}}</h3>
+                  <div class="item-desc">{{item.desc}}</div>
+                  <img class="item-img" :src="item.path"/>
+              </div>
             </div>
         </div>
         <div class="label">
@@ -21,7 +23,8 @@
 import { Component, Vue } from 'vue-property-decorator';
 import PLabel from '../components/PLabel.vue';
 import { ArticleItems } from '../interfaces/index';
-import articleDetials from '../utils/staticdata'
+import articleDetials from '../utils/staticdata';
+import { Getter } from 'vuex-class';
 
 @Component({
   components: {
@@ -29,16 +32,18 @@ import articleDetials from '../utils/staticdata'
   },
 })
 export default class Article extends Vue {
-    typescriptArticles : Array<ArticleItems> = articleDetials
+  @Getter getCurrentLabel !: string
 
-    handleGotoDetail(item: ArticleItems) {
-      this['$router'].push({
-        path: '/articledetail',
-        query: {
-          id: item.id
-        }
-      });
-    }
+  typescriptArticles : Array<ArticleItems> = articleDetials
+
+  handleGotoDetail(item: ArticleItems) {
+    this.$router.push({
+      path: '/articledetail',
+      query: {
+        id: item.id,
+      },
+    });
+  }
 }
 </script>
 <style lang="scss">

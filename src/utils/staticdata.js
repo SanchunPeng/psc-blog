@@ -1,15 +1,87 @@
 export default [{
   id: '0016',
-  title: 'THREE中世界坐标和屏幕坐标之间的转换',
-  label: 'THREE',
+  title: 'THREE.js-世界坐标和屏幕坐标之间的转换',
+  label: 'THREE · WebGL',
   desc: '屏幕坐标转化为世界坐标、世界坐标转化为屏幕坐标...',
   path: 'https://sanchunpeng.github.io/pscblog/src/assets/three.jpeg',
 }, {
+  id: '0018',
+  title: 'THREE.js-性能优化',
+  label: 'THREE · WebGL · 性能',
+  desc: '你不知道的一些three优化...',
+  path: 'https://sanchunpeng.github.io/pscblog/src/assets/three.jpeg',
+}, {
+  id: '0019',
+  title: 'THREE.js-着色器矩阵变换',
+  label: 'THREE · WebGL',
+  desc: '着色器中的模型矩阵、视图矩阵和投影矩阵的定义以及使用...',
+  path: 'https://sanchunpeng.github.io/pscblog/src/assets/three.jpeg',
+}, {
   id: '0017',
-  title: '自定义着色器',
-  label: 'THREE',
+  title: 'THREE.js-自定义着色器',
+  label: 'THREE · WebGL',
   desc: '在Three中自定义着色器...',
   path: 'https://sanchunpeng.github.io/pscblog/src/assets/three.jpeg',
+}, {
+  id: '0020',
+  title: 'VUE-cli3+Typescript封装自己的组件UI',
+  label: 'VUE . Typescript',
+  desc: '通过VUE-cli3+Typescript构建封装自己的组件UI库...',
+  path: 'https://sanchunpeng.github.io/pscblog/src/assets/typescript.png',
+}, {
+  id: '0021',
+  title: '在Vue中使用Typescript采坑之旅',
+  label: 'VUE . Typescript',
+  desc: '在使用Typescript过程中遇到的问题与解决...',
+  path: 'https://sanchunpeng.github.io/pscblog/src/assets/typescript.png',
+}, {
+  id: '0022',
+  title: 'VUE性能优化',
+  label: 'VUE · 性能',
+  desc: 'VUE的一些性能优化...',
+  path: 'https://sanchunpeng.github.io/pscblog/src/assets/vue.jpeg',
+}, {
+  id: '0023',
+  title: '图片优化',
+  label: '其他 · 性能',
+  desc: '图片优化...',
+  path: 'https://sanchunpeng.github.io/pscblog/src/assets/other.jpeg',
+}, {
+  id: '0024',
+  title: '前端机器学习库-ml5',
+  label: '机器学习',
+  desc: 'ml5，p5.js的功能与使用...',
+  path: 'https://sanchunpeng.github.io/pscblog/src/assets/other.jpeg',
+}, {
+  id: '0025',
+  title: 'CSS采坑之旅',
+  label: 'CSS',
+  desc: 'CSS采坑之旅...',
+  path: 'https://sanchunpeng.github.io/pscblog/src/assets/css.jpeg',
+}, {
+  id: '0026',
+  title: '移动端兼容性采坑之旅',
+  label: '其他',
+  desc: '移动端兼容性采坑之旅..',
+  path: 'https://sanchunpeng.github.io/pscblog/src/assets/other.jpeg',
+}, {
+  id: '0027',
+  title: 'Flutter路由',
+  label: 'Flutter',
+  desc: 'Flutter路由的使用...',
+  path: 'https://sanchunpeng.github.io/pscblog/src/assets/flutter.jpeg',
+}, {
+  id: '0028',
+  title: 'Flutter',
+  label: 'Flutter',
+  desc: 'Flutter...',
+  path: 'https://sanchunpeng.github.io/pscblog/src/assets/flutter.jpeg',
+}, {
+  id: '0029',
+  title: 'SCSS',
+  label: 'SCSS',
+  desc: 'SCSS的一些使用规则...',
+  path: 'https://sanchunpeng.github.io/pscblog/src/assets/css.jpeg',
 }, {
   id: '0001',
   title: 'VUE使用总结',
@@ -37,7 +109,7 @@ export default [{
 }, {
   id: '0005',
   title: 'ELement采坑之旅',
-  label: 'Element',
+  label: 'ElementUI',
   desc: '使用Element过程中遇到的坑以及觉得需要记录的东西...',
   path: 'https://sanchunpeng.github.io/pscblog/src/assets/element.jpg',
 }, {
@@ -51,6 +123,7 @@ export default [{
   title: '移动事件封装Tap',
   label: 'touch · 封装Tap',
   desc: '将移动端的点击事件封装成Tap...',
+  path: 'https://sanchunpeng.github.io/pscblog/src/assets/touch.jpeg',
 }, {
   id: '0008',
   title: 'JS拖拽',

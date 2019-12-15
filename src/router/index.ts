@@ -9,7 +9,7 @@ import progress from '@/views/Progress.vue';
 
 Vue.use(Router);
 // 开发环境非懒加载，生产环境懒加载
-const components = require('./_import_' + process.env.NODE_ENV).default
+const components = require(`./_import_${process.env.NODE_ENV}`).default;
 
 export default new Router({
   mode: 'history',
@@ -38,7 +38,7 @@ export default new Router({
     }, {
       path: '/articledetail',
       name: 'articledetail',
-      component: components.articleDetail
-    }
+      component: components.articleDetail,
+    },
   ],
 });

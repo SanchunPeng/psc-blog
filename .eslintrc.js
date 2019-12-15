@@ -6,7 +6,6 @@ module.exports = {
   extends: [
     'plugin:vue/essential',
     '@vue/airbnb',
-    '@vue/typescript',
   ],
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
@@ -14,6 +13,6 @@ module.exports = {
   },
   parserOptions: {
     // parser: 'typescript-eslint-parser',
-    parser: "@typescript-eslint/parser"
+    parser: '@typescript-eslint/parser',
   },
 };

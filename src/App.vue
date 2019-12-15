@@ -29,7 +29,7 @@ html, body{
 
 #app {
   width: 100%;
-  height: 100%;
+  // height: 100%;
   background-color: #f7f9fc;
   // padding: 5px;
 }

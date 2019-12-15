@@ -13,8 +13,8 @@
 // export default class CommonPropsMethodMixin extends Vue {
 //    getComponentSize(prefix: string, propsize: string) {
 //     const propSize = propsize ? propsize.toLowerCase() : '';
-//     return ['default', 'small', 'large'].indexOf(propSize) > -1 ? ` ${prefix}-${propSize}` : ''; 
-//    } 
+//     return ['default', 'small', 'large'].indexOf(propSize) > -1 ? ` ${prefix}-${propSize}` : '';
+//    }
 // }
 
 // export interface  ProgressItem {
@@ -27,5 +27,3 @@
 //     name: String,
 //     color: String
 // }
-
-  

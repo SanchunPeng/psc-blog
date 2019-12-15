@@ -11,4 +11,3 @@ export function on(element: any, type: string, handler: (event: any) => void) {
     }
   }
 }
-

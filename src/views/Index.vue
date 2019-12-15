@@ -1,12 +1,13 @@
 <template>
   <el-container>
-    <el-header>
+    <el-header height="300px">
         <Header/>
     </el-header>
-    <el-main>
+    <div class="main">
       <router-view/>
-    </el-main>
-    <!-- <el-footer height="50px">Footer</el-footer> -->
+    </div>
+    <el-footer height="50px">联系：13732211452@163.com</el-footer>
+    <el-backtop target=".main"></el-backtop>
   </el-container>
 </template>
 
@@ -30,8 +31,12 @@ export default class Index extends Vue {
   height: 100%;
   .el-header {
     padding: 0;
+    background-image: url('../assets/head.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
   }
-  .el-main {
+  .main {
     padding: 20px 120px;
     .content, .label {
       float: left;
@@ -47,6 +52,12 @@ export default class Index extends Vue {
       background-color: #ffffff;
       border-radius: 4px;
     }
+  }
+  .el-footer {
+    line-height: 50px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #22016c;
   }
 }
 </style>
