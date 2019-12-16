@@ -37,6 +37,9 @@ export default class About extends Vue {
 }
 </script>
 <style lang="scss">
+.about .content {
+    width: 100%;
+}
 .content {
     font-size: 12px;
     background-color: #FFFFFF;

@@ -50,10 +50,10 @@ export default class Project extends Vue {
     height: 100%;
     .project-item {
       display: inline-block;
-      width: 250px;
+      width: 200px;
       height: 300px;
       .item-image {
-        width: 250px;
+        width: 200px;
         height: 220px;
         background-size: 100% 100%;
       }
