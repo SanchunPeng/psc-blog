@@ -19,7 +19,7 @@ export default class App extends Vue {
 <style lang="scss">
 
 html, body{
-  font: 14px 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', 'arial', 'Tahoma', 'SimSun', 'sans-serif';
+  font: 12px 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', 'arial', 'Tahoma', 'SimSun', 'sans-serif';
   width: 100%;
   height: 100%;
   margin: 0;

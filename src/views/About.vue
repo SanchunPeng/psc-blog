@@ -38,7 +38,7 @@ export default class About extends Vue {
 </script>
 <style lang="scss">
 .content {
-    font-size: 14px;
+    font-size: 12px;
     background-color: #FFFFFF;
     padding: 20px;
     h3, h4 {
