@@ -24,7 +24,9 @@ html, body{
   height: 100%;
   margin: 0;
   min-height: 600px;
-  min-width: 880px;
+  min-width: 850px;
+  max-width: 1080px;
+  margin: 0 auto;
 }
 
 #app {
