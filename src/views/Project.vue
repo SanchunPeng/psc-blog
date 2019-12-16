@@ -51,10 +51,14 @@ export default class Project extends Vue {
     .project-item {
       display: inline-block;
       width: 250px;
-      height: 445;
+      height: 300px;
       .item-image {
         width: 250px;
-        height: 345px;
+        height: 220px;
+        background-size: 100% 100%;
+      }
+      .el-button--text {
+        font-size: 12px !important;
       }
     }
     .project-item + .project-item {

@@ -61,12 +61,12 @@ export default class PLabel extends Vue {
     width: 100%;
     background-color: #ffffff;
     border-radius: 4px;
-    padding: 20px;
+    padding: 10px;
     .label-title {
-        height: 50px;
+        height: 30px;
         font-size: 14px;
         font-weight: 700;
-        line-height: 50px;
+        line-height: 30px;
         border-bottom: 1px solid #f3f6f3;
     }
     .buttons {
@@ -83,7 +83,7 @@ export default class PLabel extends Vue {
             list-style-type: none;
             padding: 0px;
             .label-li {
-                padding-top: 10px;
+                padding-top: 6px;
                 cursor: pointer;
                 &::before {
                     content: '→';
