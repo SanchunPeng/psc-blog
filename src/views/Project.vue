@@ -36,9 +36,9 @@ import PLabel from '../components/PLabel.vue';
 export default class Project extends Vue {
   // computed
   projects : Array<ProjectItems> = [
-    { title: '车模型展示', projectUrl: 'https://github.com/SanchunPeng/three-example',
+    { title: 'VR车模型展示', projectUrl: 'https://github.com/SanchunPeng/three-example',
       desc: '', imgUrl: 'https://sanchunpeng.github.io/pscblog/src/assets/car.png' },
-    { title: '编辑自己的VUE UI', projectUrl: 'https://github.com/SanchunPeng/three-example',
+    { title: '编辑自己的VUE UI', projectUrl: 'https://github.com/SanchunPeng/psamrt-ui',
       desc: '', imgUrl: 'https://sanchunpeng.github.io/pscblog/src/assets/ui.png' },
   ]
 }

@@ -18,7 +18,7 @@
 </template>
 
 <script lang="ts">
-import { Component, Prop, Vue } from 'vue-property-decorator';
+import { Component, Prop, Vue, Watch } from 'vue-property-decorator';
 
 
 @Component
@@ -26,9 +26,16 @@ import { Component, Prop, Vue } from 'vue-property-decorator';
 export default class Header extends Vue {
   activeIndex : String = 'article'
 
+  
+  // @Watch('$route.name')
+  // onGetActiveIndexChange (newV: string, oldV: string) {
+  //   this.activeIndex = name === 'articledetail' ? 'article' : name || '';
+  // }
+
   mounted() {
     const { name } = this.$route;
     this.activeIndex = name === 'articledetail' ? 'article' : name || '';
+    console.log(name)
   }
 }
 </script>

@@ -12,7 +12,7 @@ Vue.use(Router);
 const components = require(`./_import_${process.env.NODE_ENV}`).default;
 
 export default new Router({
-  mode: 'history',
+  // mode: 'history',
   base: process.env.BASE_URL,
   routes: [
     {
