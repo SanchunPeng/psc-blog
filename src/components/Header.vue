@@ -44,7 +44,7 @@ export default class Header extends Vue {
 .header .el-menu-demo {
   padding-left: 120px;
   .el-menu-item {
-    font-size: 16px !important;
+    font-size: 15px !important;
     border-bottom: 0px !important;
   }
 }

@@ -64,7 +64,7 @@ export default class PLabel extends Vue {
     padding: 20px;
     .label-title {
         height: 50px;
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 700;
         line-height: 50px;
         border-bottom: 1px solid #f3f6f3;
